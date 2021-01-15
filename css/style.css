@@ -1,0 +1,241 @@
+body {
+    background-color: #c7956d;
+}
+
+#navbar nav {
+    background-color: #c7956d;
+}
+
+
+a:visited {
+    color: #056674;
+}
+
+nav .navbar-nav li a {
+    color: #056674;
+    font-size: 15pt;
+}
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: #faf3dd;
+}
+
+#header {
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+}
+
+#header .waves {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+#header div img {
+    text-align: center;
+    padding-top: 3%;
+    height: 100vh;
+}
+
+#header div p {
+    text-align: justify;
+    margin-top: 20%;
+    color: #FFE47A;
+}
+
+#Offer {
+    background-color: #eeeeee;
+}
+
+#Offer h1 {
+    text-align: center;
+}
+
+#Offer hr {
+    width: 20%;
+    margin-left: 40%;
+    position: relative;
+    height: 5px;
+    background: #000000;
+    border: none;
+}
+
+#Offer .card {
+    margin-bottom: 30%;
+}
+
+.cardmarginleft {
+    margin-left: 30%;
+}
+
+.cardmarginright {
+    margin-right: 30%;
+}
+
+#news h1 {
+    color: #FFE47A;
+    padding-top: 5%;
+    text-align: center;
+}
+
+#news h3 {
+    color: #393e46;
+    padding-top: 8%;
+    text-align: center;
+}
+
+.newshr {
+    width: 20%;
+    margin-left: 40%;
+    position: relative;
+    height: 5px;
+    background: #FFE47A;
+    border: none;
+}
+
+#news .card {
+    margin-top: 10%;
+    margin-left: 40%;
+    margin-bottom: 10%;
+    width: 100%;
+    background-color: #c7956d;
+    border: none;
+}
+
+#news .card-title {
+    color: #eeeeee;
+}
+
+#news .card-text {
+    color: #FFE47A;
+}
+
+
+.custom-container {
+    border: 1px;
+    width: 50%;
+    margin: 10% 0 10% 20%;
+    background-color: #eeeeee;
+}
+
+.box-image {
+    width: 100%;
+    padding: 10%;
+}
+
+
+#bible h1 {
+    color: #FFE47A;
+    padding-top: 5%;
+    text-align: center;
+}
+
+.newshr {
+    width: 20%;
+    margin-left: 40%;
+    position: relative;
+    height: 5px;
+    background: #FFE47A;
+    border: none;
+}
+
+#bible {
+    background-color: #707070;
+}
+
+#bible p {
+    color: #FFE47A;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+#footer {
+    background-color: #2c061f;
+}
+
+#footer p {
+    color: #eeeeee;
+    padding: 0 0 0 20%;
+}
+
+.footer-icon {
+    font-size: 2em;
+}
+
+.copyright {
+    margin-left: 20%;
+}
+
+#music .card {
+    margin-top: 10%;
+    margin-left: 30%;
+    padding-bottom: 10%;
+    width: 100%;
+    background-color: #c7956d;
+    border: none;
+}
+
+#music p {
+    color: #FFE47A;
+}
+
+#music img {
+    width: 100%;
+    height: 100%;
+    padding-right: 5%;
+}
+
+.music_title_padding {
+    padding-top: 10%;
+}
+
+#music_title .card {
+    margin-left: 30%;
+    width: 100%;
+    background-color: #c7956d;
+    border: none;
+}
+
+#music_title p {
+    color: #FFE47A;
+}
+
+#music_title img {
+    width: 100%;
+    height: 50%;
+    padding-right: 5%;
+}
+
+@media only screen and (max-width: 600px) {
+    #header div img {
+        height: 100%;
+    }
+
+    #news .card {
+        margin-left: 40px;
+        width: 70%;
+    }
+
+    #music .card {
+        margin-left: 30px;
+    }
+
+    #music img {
+        width: 50%;
+        height: 100%;
+    }
+
+    #music_title .card {
+        margin-left: 30px;
+    }
+
+    #music_title img {
+        width: 50%;
+        height: 100%;
+    }
+}
